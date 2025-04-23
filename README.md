@@ -69,6 +69,7 @@ Este proyecto contiene una serie de pruebas automatizadas desarrolladas con **Cy
 **Anotaciones:**
 - El mensaje esperado **"Thank you"** no coincide con el mensaje real.
 - El campo **website** genera un error y fue comentado.
+- Se puso un wait de 10 segundos para ingresar el campo de website manualmente y comporbar que el mensaje esperado si estuviese, pero este tampoco existia.
 
 ---
 
@@ -88,6 +89,16 @@ Este proyecto contiene una serie de pruebas automatizadas desarrolladas con **Cy
 
 ## ▶️ Cómo ejecutar las pruebas
 
-1. Instala las dependencias del proyecto:
-   ```bash
-   npm install
+---
+
+# 📦 Instala las dependencias
+npm install
+
+# 🚀 Abre Cypress (interfaz gráfica)
+npx cypress open
+
+# 🧪 Luego, en la interfaz de Cypress:
+#    1. Selecciona el archivo de prueba que desees ejecutar
+#    2. Observa los resultados directamente en la interfaz
+
+# 📊 También puedes verificar detalles en la consola de desarrollo del navegador
