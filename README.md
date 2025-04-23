@@ -4,6 +4,21 @@ Este proyecto contiene una serie de pruebas automatizadas desarrolladas con **Cy
 
 ---
 
+## ▶️ Cómo ejecutar las pruebas
+
+---
+
+- 📦 Instala las dependencias
+npm install
+
+- 🚀 Abre Cypress (interfaz gráfica)
+npx cypress open
+
+- 🧪 Luego, en la interfaz de Cypress:
+-    1. Selecciona el archivo de prueba que desees ejecutar
+-    2. Observa los resultados directamente en la interfaz
+
+
 ## 📂 Estructura de las pruebas
 
 ### 1. 🖼️ Pruebas de carga de imágenes y contenido  
@@ -87,18 +102,4 @@ Este proyecto contiene una serie de pruebas automatizadas desarrolladas con **Cy
 
 ---
 
-## ▶️ Cómo ejecutar las pruebas
 
----
-
-# 📦 Instala las dependencias
-npm install
-
-# 🚀 Abre Cypress (interfaz gráfica)
-npx cypress open
-
-# 🧪 Luego, en la interfaz de Cypress:
-#    1. Selecciona el archivo de prueba que desees ejecutar
-#    2. Observa los resultados directamente en la interfaz
-
-# 📊 También puedes verificar detalles en la consola de desarrollo del navegador
