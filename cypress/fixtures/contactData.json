@@ -1,0 +1,32 @@
+[
+    {
+      "first_name": "John",
+      "last_name": "Doe",
+      "company": "Example Corp",
+      "email": "john.doe@example.com",
+      "website": "https://example.com",
+      "country": "United States",
+      "phone": "1234567890",  
+      "message": "Estoy interesado en Heroku Enterprise."
+    },
+    {
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "company": "Tech Solutions",
+      "email": "jane.smith@example.com",
+      "website": "https://techsolutions.com",
+      "country": "Canada",
+      "phone": "9876543210",      
+      "message": "Pueden explicarme más sobre Heroku Enterprise?"
+    },
+    {
+      "first_name": "Alice",
+      "last_name": "Johnson",
+      "company": "Innovate Ltd",
+      "email": "alice.johnson@example.com",
+      "website": "https://innovate.com",
+      "country": "United Kingdom",
+      "phone": "5551234567",
+      "message": "Hacen envíos a Europa?"
+    }
+  ]
