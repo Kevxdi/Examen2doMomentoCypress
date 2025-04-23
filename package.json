@@ -25,7 +25,8 @@
     "license": "MIT",
     "scripts": {
         "lint": "eslint . --fix",
-        "test": "export FORCE_COLOR=1 && node tests/basic-test.js && node tests/safe-test.js"
+        "test": "export FORCE_COLOR=1 && node tests/basic-test.js && node tests/safe-test.js",
+        "cypress:open": "npx cypress open"
     },
     "engines": {
         "node": ">=0.1.90"
